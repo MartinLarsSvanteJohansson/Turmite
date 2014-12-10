@@ -17,21 +17,21 @@
 
 class Viewer {
     
-    public:
+public:
     
     static void init(int w, int h);
     static void draw(void);  
-	static void changeSize(int width, int height);
-	static void setPerspective();
+    static void changeSize(int width, int height);
+    static void setPerspective();
 
-	void drawBox(float x1, float x2, float y1, float y2, float z); // Draws a box
-	void DrawText(GLint x, GLint y, char* s, GLfloat r, GLfloat g, GLfloat b); // Draw text
+    void drawBox(float x1, float x2, float y1, float y2, float z); // Draws a box
+    void DrawText(GLint x, GLint y, char* s, GLfloat r, GLfloat g, GLfloat b); // Draw text
 
-    private:   
+private:   
 
-	static void setOrthogonal();
-    static int	screenWidth;
-    static int	screenHeight;
+    static void setOrthogonal();
+    static int  screenWidth;
+    static int  screenHeight;
 
 
 };

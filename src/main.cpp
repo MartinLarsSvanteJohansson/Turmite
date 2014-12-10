@@ -61,8 +61,8 @@
 
 
 
-static int winWidth		= 1324;
-static int winHeight	= 768;
+static int winWidth     = 1324;
+static int winHeight    = 768;
 
 // Global interface classes
 std::unique_ptr<Turmite>	turmite;
@@ -128,8 +128,8 @@ void keyboard (unsigned char key, int x, int y)
 // Window adjustments
 void changeSize(int width, int height)
 {
-	winWidth		= width;
-    winHeight		= height;    		
+	winWidth        = width;
+    winHeight       = height;    		
 
 	// Set perspective of viewer
 	viewer->setPerspective();
