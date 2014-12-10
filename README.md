@@ -1,7 +1,7 @@
 # Turmites
 
 
-![image](pics/turmite_v01.png)
+![image](pics/turmite_v01.jpg)
 
 
 This program implements a Relative Turmite Turing machine on a rectangular map.
@@ -93,7 +93,7 @@ You can also build from the CMake file
 
 ----------------------------------------------------------------
 
-        ?[-?_•?]?
+        ?[-?_â€¢?]?
   Author: Martin Lars Svante Johansson  
   email: martin.lars.svante.johansson@gmail.com 
  
